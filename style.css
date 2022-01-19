@@ -90,3 +90,29 @@ nav {
         font-weight: 550;
     }
  }
+
+ @media (max-width: 576px) { 
+    .menu li a {
+        font-size: 0.8rem;
+
+        font-weight: 450;
+    }
+
+    #background-text {
+        font-size: 1.6rem;
+    }
+
+    #logo {
+        top: 12.5%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 200px;
+    }
+
+    .menu {
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+    }
+  }
