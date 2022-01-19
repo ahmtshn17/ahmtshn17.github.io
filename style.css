@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    font-family: sans-serif;
+}
+
 header {
     background-image: 
         linear-gradient(to left top, rgba(179, 204, 255, 0.2), rgb(159, 191, 223, 0.7)),
@@ -53,6 +57,7 @@ nav {
     color: rgb(7, 66, 61);
     font-size: 1.6rem;
     transition: all 1s;
+    font-weight: 650;
 }
 
 .menu li a:hover {
@@ -60,8 +65,22 @@ nav {
 
 }
 
+
 @media (max-width: 768px) { 
     #background-text {
         font-size: 2rem;
+    }
+
+    #logo {
+        top: 12.5%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .menu {
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
     }
  }
